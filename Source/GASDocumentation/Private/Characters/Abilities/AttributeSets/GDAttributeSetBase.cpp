@@ -257,80 +257,80 @@ void UGDAttributeSetBase::AdjustAttributeForMaxChange(FGameplayAttributeData & A
 
 void UGDAttributeSetBase::OnRep_Health(const FGameplayAttributeData& OldHealth)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Health, OldHealth);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Health);
 }
 
 void UGDAttributeSetBase::OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxHealth, OldMaxHealth);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxHealth);
 }
 
 void UGDAttributeSetBase::OnRep_HealthRegenRate(const FGameplayAttributeData& OldHealthRegenRate)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, HealthRegenRate, OldHealthRegenRate);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, HealthRegenRate);
 }
 
 void UGDAttributeSetBase::OnRep_Mana(const FGameplayAttributeData& OldMana)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Mana, OldMana);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Mana);
 }
 
 void UGDAttributeSetBase::OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxMana, OldMaxMana);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxMana);
 }
 
 void UGDAttributeSetBase::OnRep_ManaRegenRate(const FGameplayAttributeData& OldManaRegenRate)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, ManaRegenRate, OldManaRegenRate);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, ManaRegenRate);
 }
 
 void UGDAttributeSetBase::OnRep_Stamina(const FGameplayAttributeData& OldStamina)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Stamina, OldStamina);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Stamina);
 }
 
 void UGDAttributeSetBase::OnRep_MaxStamina(const FGameplayAttributeData& OldMaxStamina)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxStamina, OldMaxStamina);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MaxStamina);
 }
 
 void UGDAttributeSetBase::OnRep_StaminaRegenRate(const FGameplayAttributeData& OldStaminaRegenRate)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, StaminaRegenRate, OldStaminaRegenRate);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, StaminaRegenRate);
 }
 
 void UGDAttributeSetBase::OnRep_Armor(const FGameplayAttributeData& OldArmor)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Armor, OldArmor);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Armor);
 }
 
 void UGDAttributeSetBase::OnRep_MoveSpeed(const FGameplayAttributeData& OldMoveSpeed)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MoveSpeed, OldMoveSpeed);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, MoveSpeed);
 }
 
 void UGDAttributeSetBase::OnRep_CharacterLevel(const FGameplayAttributeData& OldCharacterLevel)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, CharacterLevel, OldCharacterLevel);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, CharacterLevel);
 }
 
 void UGDAttributeSetBase::OnRep_XP(const FGameplayAttributeData& OldXP)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, XP, OldXP);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, XP);
 }
 
 void UGDAttributeSetBase::OnRep_XPBounty(const FGameplayAttributeData& OldXPBounty)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, XPBounty, OldXPBounty);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, XPBounty);
 }
 
 void UGDAttributeSetBase::OnRep_Gold(const FGameplayAttributeData& OldGold)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Gold, OldGold);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, Gold);
 }
 
 void UGDAttributeSetBase::OnRep_GoldBounty(const FGameplayAttributeData& OldGoldBounty)
 {
-	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, GoldBounty, OldGoldBounty);
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UGDAttributeSetBase, GoldBounty);
 }
